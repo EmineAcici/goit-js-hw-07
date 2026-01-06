@@ -50,6 +50,7 @@ button {
 
 button:hover {
   background-color: #6c8cff;
+  border-color: #6c8cff;
 }
 
 /* ===== Task 1 ===== */
@@ -149,4 +150,37 @@ button:hover {
 
 .change-color {
   width: 148px;
+}
+
+/* ===== Task 6 ===== */
+#controls,
+#boxes {
+  background-color: #f6f6fe;
+}
+#controls {
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: 104px;
+  margin-bottom: 16px;
+}
+#controls input {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+.red-button {
+  background-color: #ff4e4e;
+  border-color: #ff4e4e;
+}
+.red-button:hover {
+  background-color: #ff7070;
+  border-color: #ff7070;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  padding: 32px;
 }
