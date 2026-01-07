@@ -156,11 +156,11 @@ button:hover {
 #controls,
 #boxes {
   background-color: #f6f6fe;
+  width: 486px;
 }
 #controls {
   border-radius: 8px;
   padding: 32px;
-  width: 486px;
   height: 104px;
   margin-bottom: 16px;
 }
