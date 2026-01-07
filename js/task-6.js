@@ -11,6 +11,7 @@ const destroyBtn = document.querySelector("[data-destroy]");
 
 function createBoxes(amount) {
   let size = 30;
+  boxesContainer.innerHTML = "";
   for (let index = 0; index < amount; index++) {
     const box = document.createElement("div");
     box.style.width = `${size}px`;
